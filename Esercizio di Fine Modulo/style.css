@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    
+}
+
+.contenitoreInput {
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: end;
+    margin-top: 15px;
+}
+
+.contenitoreInput p {
+    margin: 10px;
+    text-align: left;
+}
+
+input {
+    text-align: center;
+    width: 250px;
+    height: 2em;
+    border: 0.1px solid rgb(97, 97, 97);
+    border-radius: 5px;
+}
+
+button {
+    height: 2em;
+}
+
+.risultati {
+    margin: 50px 0;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Trova un lavoro</title>
+</head>
+<body>
+    <h1>Trova il lavoro PERFETTO per TE</h1>
+
+    <div class="contenitoreInput">
+        <div class="contenitoreLavoro">
+            <p>Cerca mansione</p>
+            <input id="ricercaLavoro" type="text" placeholder="Inserisci qui la mansione da ricercare...">
+        </div>
+        <div class="contenitoreLocation">
+            <p>Cerca location</p>
+            <input id="ricercaPosizione" type="text" placeholder="Inserisci qui la location da ricercare...">
+        </div>
+        <button onclick="trovaLavoro(document.getElementById('ricercaLavoro'), document.getElementById('ricercaPosizione'))">Cerca</button>
+    </div>
+
+    <p class="risultati">Ecco i risultati della tua ricerca:</p>
+    <ul id="listaRisultati">
+
+    </ul>
+    <script src="script.js"></script>
+</body>
+</html>
